@@ -1,0 +1,56 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html,body
+{
+    /*min-width: 100rem;*/
+
+    background-color: rgb(153, 10, 10);
+}
+h1
+{
+    font-size: 8rem;
+    text-align: center;
+}
+h4
+{
+    font-size: 3rem;
+    text-align: center;
+}
+#playarea
+{
+    position: relative;
+    transform: translate(-50%,0%);
+    left:50%;
+    top: 0.1rem;
+
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 2rem;
+    background-color: black;
+}
+button
+{
+    margin: 0.6rem;
+    margin-top: 0.8rem;
+
+    width: 8rem;
+    height: 8rem;
+    font-size: 7rem;
+    border: none;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color:rgb(177, 168, 168)
+}
+button:active
+{
+  background-color:rgb(218, 238, 36);
+}
