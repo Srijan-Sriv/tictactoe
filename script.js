@@ -83,7 +83,7 @@ function threeInARow()
 {
     for(var k=(-1);k<2;k+=2)
     {
-        for(var j=0;j<6;j+=3)
+        for(var j=0;j<=6;j+=3)
         {
             if(filled[j]==k && filled[j+1]==k && filled[j+2]==k)
             {
